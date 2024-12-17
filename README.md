@@ -6,3 +6,6 @@ pasos a passo:
 5) deixar a chave .pem num local ubuntu d epadrão
 6) executar chmod 400 observability-key.pem para liberações
 7) ssh -i "observability-key.pem" ubuntu@<IP-da-instância> pra conectar local com instancia na nuvem
+8) sudo apt update && sudo apt upgrade -y
+9) sudo apt install docker.io docker-compose -y
+10) sudo systemctl enable docker
